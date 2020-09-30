@@ -15,15 +15,18 @@ using namespace std;
 #define rep(i,n)     	for(ll i=0;i<n;i++)
 #define vll       		vector<ll>
 #define vi				vector<int>
-#define vvi				vector<vii>
+#define vs 				std::vector<string>
+#define vvi				vector<vi>
+#define vvll 			vector<vector<ll>>
 #define sll		  		set<ll>
 #define pii				pair<ll,ll>
 #define get_str(s)   	getline(cin,s)
-#define IOS 			ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL)
 #define w(t)            int t; cin>>t; while(t--)
 #define sp(x,y)         fixed<<setprecision(y)<<x
 #define mod 			1000000007
-#define read			freopen("input.txt", "r", stdin);freopen("output.txt", "w", stdout);
+#define IOS 			ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL)
+#define read			freopen("input.txt", "r", stdin);freopen("output.txt", "w", stdout)
+const int maxn = 100010;
 
 
 
@@ -32,4 +35,3 @@ int main()
 	IOS;
 	read;
 }
-
