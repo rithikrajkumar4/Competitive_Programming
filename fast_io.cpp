@@ -1,14 +1,18 @@
+// RRRRRRRRRRRRkkkkk
 #include<bits/stdc++.h>
 using namespace std;
 
-// #define pi 				M_PI
+#define pi 				M_PI
+#define eb(x)			emplace_back(x)
 #define mem(a,b) 		memset(a,b,sizeof(a))
 #define ll        		long long
 #define pb(a)         	push_back(a)
 #define mk(a,b)			make_pair(a,b)
 #define all(x)	  		x.begin(),x.end()
+#define rall(x)			x.rbegin(),x.rend()
 #define fi 				first
 #define	se				second
+#define f(i,a,n)		for(int i=a;i<n;i++)
 #define loop(i,a,b) 	for(auto i=a;i!=b;i++)
 #define b_loop(i,a,b)	for(ll i=b;i>=a;i--)
 #define rep(i,n)     	for(ll i=0;i<n;i++)
@@ -34,5 +38,8 @@ const int maxn = 100010;
 int main()
 {
 	IOS;
+#ifndef ONLINE_JUDGE
 	read;
+#endif
+
 }
