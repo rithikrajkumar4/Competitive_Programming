@@ -33,13 +33,23 @@ using namespace std;
 #define ninf			INT_MIN+1
 #define IOS 			ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL)
 #define read			freopen("input.txt", "r", stdin);freopen("output.txt", "w", stdout)
-const int maxn = 100010;
 
+bool as_sec(const pair<int, int> &a, const pair<int, int> &b)
+{
+	return a.second < b.second;
+}
+
+const int maxn = 100010;
+void solve() {
+
+}
 int main()
 {
 	IOS;
 #ifndef ONLINE_JUDGE
 	read;
 #endif
+	solve();
+
 
 }
