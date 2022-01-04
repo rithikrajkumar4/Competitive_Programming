@@ -41,63 +41,17 @@ bool as_sec(const pair<int, int> &a, const pair<int, int> &b)
 
 const int maxn = 100010;
 void solve() {
-	int n, s; cin >> n >> s;
-	if (s == 0 && n == 1)
-		cout << 0 << " " << 0;
-	else if (s > n * 9 or s == 0)
-		cout << -1 << " " << -1;
-	else if (s == n * 9)
-	{
-		string ans = "";
-		for (int i = 0; i < n; i++)
-			ans += '9';
-		cout << ans << " " << ans;
+
+	int n, m, all = 0;
+
+	cin >> n >> m;
+	while (n < m) {
+		if (m % 2) m++;
+		else m /= 2;
+		all++;
 	}
-	else
-	{
-		string ans1 = "", ans2 = "";
-		int temp = s;
-		for (int i = 0; i < n; i++)
-		{
-			if (temp > 9)
-			{
-				ans2 += '9';
-				temp -= 9;
-			}
-			else
-			{
-				ans2 += to_string(temp);
-				temp -= temp;
-			}
-		}
-		int i = 1;
-		temp = s;
-		while (i <= n)
-		{
-			if ((n - i) * 9 > temp - 1 && temp)
-			{
-				if (i == 1)
-				{
-					ans1 += '1';
-					temp = temp - 1;
-				}
-				else
-					ans1 += '0';
-			}
-			else if (temp % 9 == 0 && temp)
-			{
-				ans1 += '9';
-				temp -= 9;
-			}
-			else
-			{
-				ans1 += to_string(temp % 9);
-				temp -= (temp % 9);
-			}
-			i++;
-		}
-		cout << ans1 << " " << ans2;
-	}
+	cout << all + n - m;
+	return ;
 }
 int main()
 {
