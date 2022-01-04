@@ -1,8 +1,0 @@
-combinatorics 
-Dynamic programming
-lots and lots of number theory
-diophantine Equations
-pandigital numbers
-Eulers Totient function
-prime seive , factorization
-continued Fraction  
