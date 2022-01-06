@@ -6,6 +6,7 @@ using namespace std;
 #define eb(x)			emplace_back(x)
 #define mem(a,b) 		memset(a,b,sizeof(a))
 #define ll        		long long
+<<<<<<< HEAD
 #define pb(a)         		push_back(a)
 #define mk(a,b)			make_pair(a,b)
 #define all(x)	  		x.begin(),x.end()
@@ -13,6 +14,14 @@ using namespace std;
 #define fi 				first
 #define	se				second
 #define f(i,a,n)		for(int i=a;i<n;i++)
+=======
+#define pb(a)         	push_back(a)
+#define mk(a,b)			make_pair(a,b)
+#define all(x)	  		x.begin(),x.end()
+#define rall(x)			x.rbegin(),x.rend()
+#define fi 				first
+#define	se				second
+>>>>>>> 6a68637c6a46ea0efc59d963ab8e4dbbd1639b5b
 #define loop(i,a,b) 	for(auto i=a;i!=b;i++)
 #define b_loop(i,a,b)	for(ll i=b;i>=a;i--)
 #define rep(i,n)     	for(ll i=0;i<n;i++)
@@ -33,6 +42,7 @@ using namespace std;
 #define ninf			INT_MIN+1
 #define IOS 			ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL)
 #define read			freopen("input.txt", "r", stdin);freopen("output.txt", "w", stdout)
+<<<<<<< HEAD
 #define print(x)		cout<<x<<" "
 
 const int maxn = 100010;
@@ -62,3 +72,28 @@ int main()
 #endif
 	solve();
 }
+=======
+const int maxn = 100010;
+
+int main()
+{
+	IOS;
+	read;
+	int i = 1;
+	while (i <= 100)
+	{
+		if (!(i % 3))
+		{
+			cout << "Fizz";
+			if (!(i % 5))
+				cout << "Buzz";
+			cout << "\n";
+		}
+		else if (i % 5 == 0)
+			cout << "Buzz\n";
+		else
+			cout << "\n";
+		i++;
+	}
+}
+>>>>>>> 6a68637c6a46ea0efc59d963ab8e4dbbd1639b5b
