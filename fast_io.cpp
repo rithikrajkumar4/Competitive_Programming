@@ -1,22 +1,15 @@
 // RRRRRRRRRRRRkkkkk
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 
 #define pi 				M_PI
 #define eb(x)			emplace_back(x)
 #define mem(a,b) 		memset(a,b,sizeof(a))
 #define ll        		long long
-<<<<<<< HEAD
 #define pb(a)         		push_back(a)
 #define mk(a,b)			make_pair(a,b)
 #define all(x)	  		x.begin(),x.end()
 #define rall(x)			x.rbegin(),x.rend()	
-=======
-#define pb(a)         	push_back(a)
-#define mk(a,b)			make_pair(a,b)
-#define all(x)	  		x.begin(),x.end()
-#define rall(x)			x.rbegin(),x.rend()
->>>>>>> 6a68637c6a46ea0efc59d963ab8e4dbbd1639b5b
 #define fi 				first
 #define	se				second
 #define f(i,a,n)		for(int i=a;i<n;i++)
@@ -40,35 +33,14 @@ using namespace std;
 #define ninf			INT_MIN+1
 #define IOS 			ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL)
 #define read			freopen("input.txt", "r", stdin);freopen("output.txt", "w", stdout)
-<<<<<<< HEAD
 #define print(x)		cout<<x<<" "
 
-const int maxn = 100010;
-void solve() 
-{
-=======
-
-bool as_sec(const pair<int, int> &a, const pair<int, int> &b)
-{
-	return a.second < b.second;
+void solve(){
+	
 }
-
-const int maxn = 100010;
-void solve() {
-
->>>>>>> 6a68637c6a46ea0efc59d963ab8e4dbbd1639b5b
-}
-int main()
-{
+int main(){
 	IOS;
-#ifndef ONLINE_JUDGE
 	read;
-#endif
 	solve();
-<<<<<<< HEAD
+	return 0;
 }
-=======
-
-
-}
->>>>>>> 6a68637c6a46ea0efc59d963ab8e4dbbd1639b5b
